@@ -61,19 +61,19 @@ function App() {
           <nav>
             <ul className={`links_list ${menuOpen && 'responsive'}`}>
               <li className='link'>
-                <a>About</a>
+                <a href='#'>About</a>
               </li>
               <li className='link'>
-                <a>Careers</a>
+                <a href='#'> Careers</a>
               </li>
               <li className='link'>
-                <a>Events</a>
+                <a href='#'>Events</a>
               </li>
               <li className='link'>
-                <a>Products</a>
+                <a href='#'>Products</a>
               </li>
               <li className='link'>
-                <a>Support</a>
+                <a href='#'>Support</a>
               </li>
             </ul>
           </nav>
@@ -137,35 +137,35 @@ function App() {
             <nav>
               <ul className='footer_list'>
                 <li >
-                  <a>About</a>
+                  <a href='#'>About</a>
                 </li>
                 <li >
-                  <a>Careers</a>
+                  <a href='#'>Careers</a>
                 </li>
                 <li >
-                  <a>Events</a>
+                  <a href='#'>Events</a>
                 </li>
                 <li >
-                  <a>Products</a>
+                  <a href='#'>Products</a>
                 </li>
                 <li >
-                  <a>Support</a>
+                  <a href='#'>Support</a>
                 </li>
               </ul>
             </nav>
           </div>
           <div className='right_container'>
             <div className='media-icons'>
-              <a href="">
+              <a href="#">
                 <AiFillFacebook color = '#fff' size = {22}/>
               </a>
-              <a href="">
+              <a href="#">
                 <AiOutlineTwitter color = '#fff' size = {22}/>
               </a>
-              <a href="">
+              <a href="#">
                 <BsPinterest color = '#fff' size = {22}/>
               </a>
-              <a href="">
+              <a href="#">
                 <AiOutlineInstagram color = '#fff' size = {22}/>
               </a>
               

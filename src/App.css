@@ -55,6 +55,7 @@ figure {
     right: 25%;
     left: 25%;
     width: 30px;
+    
   }
 }
 
@@ -148,6 +149,7 @@ h2 {
 .creations-header button:hover {
   background-color: #000;
   color: #fff;
+  transition: all 0.4s;
 }
 .creations-list {
   display: flex;
@@ -178,6 +180,7 @@ h2 {
 }
 .creation-item:hover::before{
   background: rgba(255,255,255,0.5);
+  transition: all 0.4s;
   cursor: pointer;
 }
 .creation-item img {
@@ -239,6 +242,7 @@ footer{
 }
 .media-icons a:hover{
  border-bottom: 2px solid #fff;
+ transition: all 0.4s;
 }
 .copyright{
   color: hsl(0, 0%, 55%);
@@ -259,6 +263,7 @@ footer{
   .menu_icon {
     display: block;
     z-index: 4000;
+    cursor: pointer;
   }
   .logo{
     z-index: 4000;
